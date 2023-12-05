@@ -50,9 +50,7 @@ To get a copy of this project up and running on your local machine, follow these
 
 3. Install dependencies:
 
-    <code>
-   npm install
-   </code>
+    <code>npm install</code>
 
 4. Start the development server:
 <code>
