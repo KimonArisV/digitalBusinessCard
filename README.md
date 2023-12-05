@@ -38,7 +38,7 @@ To get a copy of this project up and running on your local machine, follow these
 
 1. Clone the repository:
 
-   <code>git clone git@github.com:KimonArisV/digitalBusinessCard.git</code>
+   <code>git clone git<span>@</span>github.com:KimonArisV/digitalBusinessCard.git</code>
 
 2. Navigate to the project folder:
 
@@ -56,4 +56,4 @@ To get a copy of this project up and running on your local machine, follow these
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/KimonArisV/digitalBusinessCard/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/KimonArisV/digitalBusinessCard/blob/main/LICENSE.md) file for details.
