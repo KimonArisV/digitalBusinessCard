@@ -39,7 +39,7 @@ To get a copy of this project up and running on your local machine, follow these
 
 0. Make sure you have nvm (Node Version Manager) installed:
 
-    Try:
+    Try:<br>
     <code>nvm -v</code>
 
     If you get a version, then you can move forward to step 1, otherwise follow step 0:
