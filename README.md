@@ -49,10 +49,10 @@ To get a copy of this project up and running on your local machine, follow these
     <code>nvm -v</code>
 
     If you still don't get a version printed, do the following to update the profile configuration:<br>
-    <code>export NVM_DIR="<area>$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"<code>
+    <code>export NVM_DIR="""<area>$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"</code>
 
     Once the above is completed do the following:<br>
-    <code>[-s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"<code>
+    <code>[-s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"</code>
 
     Now nvm should be installed and operational. 
 
