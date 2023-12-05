@@ -8,9 +8,9 @@ Welcome to my digital business card project! This project showcases a modern and
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
+- [License](#license)
 <!-- - [Usage](#usage) -->
 <!-- - [Contributing](#contributing) -->
-- [License](#license)
 
 <!-- ## Demo
 
