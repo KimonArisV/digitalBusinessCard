@@ -8,8 +8,8 @@ Welcome to my digital business card project! This project showcases a modern and
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
+<!-- - [Usage](#usage) -->
+<!-- - [Contributing](#contributing) -->
 - [License](#license)
 
 <!-- ## Demo
@@ -54,3 +54,6 @@ To get a copy of this project up and running on your local machine, follow these
 
 5. Once the development server is running, open your web browser and visit http://localhost:3000 to see the digital business card in action.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/KimonArisV/digitalBusinessCard/blob/main/LICENSE) file for details.
