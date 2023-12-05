@@ -42,16 +42,16 @@ To get a copy of this project up and running on your local machine, follow these
     Try:<br>
     <code>nvm -v</code>
 
-    If you get a version, then you can move forward to step 1, otherwise follow step 0:
+    If you get a version, then you can move forward to step 1, otherwise follow step 0:<br>
     <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash</code>
 
-    Now, run again:
+    Now, run again:<br>
     <code>nvm -v</code>
 
-    If you still don't get a version printed, do the following to update the profile configuration:
-    <code>export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" <code>
+    If you still don't get a version printed, do the following to update the profile configuration:<br>
+    <code>export NVM_DIR="<area>$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"<code>
 
-    Once the above is completed do the following:
+    Once the above is completed do the following:<br>
     <code>[-s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"<code>
 
     Now nvm should be installed and operational. 
