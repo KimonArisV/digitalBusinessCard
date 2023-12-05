@@ -55,10 +55,9 @@ To get a copy of this project up and running on your local machine, follow these
    </code>
 
 4. Start the development server:
-
-    <code>
-   npm start
-   </code>
+<code>
+npm start
+</code>
 
 
 5. Once the development server is running, open your web browser and visit http://localhost:3000 to see the digital business card in action.
