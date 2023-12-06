@@ -1,7 +1,11 @@
 import React from "react";
+import MailIcon from "../images/email.png";
 
 export default function ButtonEmail() {
     return (
-        <button>Email</button>
+        <a href="mailto: kvogt@g.harvard.edu" className="icon--button-email">
+            <img src={MailIcon} className="logos" />
+            <p>Email</p>
+        </a>
     )
 }
