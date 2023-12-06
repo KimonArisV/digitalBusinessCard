@@ -1,9 +1,12 @@
 html{
     box-sizing:border-box;
-
 }
 *,*:before,*:after{
     box-sizing: inherit;
+}
+html, body {
+    height: 100vh;
+    width: 100vw;
 }
 /* removing padding from the entire screen */
 body{
@@ -14,8 +17,9 @@ body{
     color: white
 }
 /* making the image 100% of the width */
-.App > img{
-    width: 100vw;
+#portrait{
+    width: 100%;
+    height: auto;
 }
 /* creating padding around evrything except the image */
 div.nonImageSocials--content{
@@ -63,7 +67,6 @@ div.main--info{
     background-color:rgb(105, 99, 99); 
     position: relative;
     bottom: 0;
-    width: 100vw;
 }
 footer{
     width: 100%;
@@ -78,4 +81,59 @@ footer{
 }
 #twitter_id{
     padding: 5px;
+}
+@media (min-width:625px){
+    /* .App > #main--content >img{ */
+    div#main--content{
+        display: flex;
+        flex-direction: row;
+    }
+    div#image-buttons-container{
+        width: 35%;
+    }
+    div#all-text{
+       margin:30px;
+       margin-right: 50px;
+    }
+    #portrait{
+        width: 100%;
+        height: auto;
+    }
+    div.nonImageSocials--content{
+        padding: 0px;
+    }
+    a.icon--button{
+        margin: 0px;
+    }
+    a#icon--button-email{
+        margin: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right:5px; 
+    }
+    a#icon--button-linkedin{
+        margin: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left:5px;
+    }
+    div.icons--buttons--container{
+        display: flex;
+        justify-content: center;
+    
+    }
+    footer {
+        height: 250px;
+    }
+    #github_id{
+        width: 70%;
+        margin:15px;
+    }
+    #twitter_id{
+        height: 70%;
+        width: auto;
+        margin:25px;
+    }
+    
+
 }
