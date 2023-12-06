@@ -12,12 +12,20 @@ function App() {
   return (
     <div className="App">
       <img src={portait} alt="Logo" width="100px"/>
-      <Main />
-      <ButtonEmail/>
-      <ButtonLinkedIn/>
-      <AboutMe />
-      <Interest />
-      <Socials />
+      <div className="nonImage--content">
+        <div className="main--info">
+          <Main />
+        </div>
+        <div className="buttons--cont">
+          <ButtonEmail/>
+          <ButtonLinkedIn/>
+        </div>
+        <AboutMe />
+        <Interest />
+        <div className="icons--footer">
+          <Socials />
+        </div>
+      </div>
     </div>
 
   );
