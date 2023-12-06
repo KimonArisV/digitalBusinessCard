@@ -11,20 +11,20 @@ import portait from "./images/kimon.jpeg";
 function App() {
   return (
     <div className="App">
-      <img src={portait} alt="Logo" width="100px"/>
-      <div className="nonImage--content">
+      <img src={portait} alt="Logo" />
+      <div className="nonImageSocials--content">
         <div className="main--info">
           <Main />
         </div>
-        <div className="buttons--cont">
+        <div className="icons--buttons--container">
           <ButtonEmail/>
           <ButtonLinkedIn/>
         </div>
         <AboutMe />
         <Interest />
-        <div className="icons--footer">
-          <Socials />
-        </div>
+      </div>
+      <div className="icons--socials--container">
+        <Socials />
       </div>
     </div>
 

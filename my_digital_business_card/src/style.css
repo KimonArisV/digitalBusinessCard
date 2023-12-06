@@ -1,0 +1,81 @@
+html{
+    box-sizing:border-box;
+
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+/* removing padding from the entire screen */
+body{
+    margin: 0;
+    border:0;
+    padding:0;
+    background-color:rgb(0, 0, 0); 
+    color: white
+}
+/* making the image 100% of the width */
+.App > img{
+    width: 100vw;
+}
+/* creating padding around evrything except the image */
+div.nonImageSocials--content{
+    padding: 30px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* putting the job and name in the middle */
+#my_info {
+text-align: center;
+}
+/* making the container of the email and linkedin buttons flex container
+so that the children become flex-items -->direct children are the a tags,className=icon-button*/
+div.icons--buttons--container{
+    display: flex;
+    justify-content: space-around;
+
+}
+/* made this also a flex container so img and p will be flex items */
+/* changing flex-grow to 1 from 0 helps to cover the whole flex container */
+a.icon--button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    flex-grow: 1;
+    border-radius: 6px;
+}
+a#icon--button-email{
+    background-color: white;
+    color: black; 
+}
+a#icon--button-linkedin{
+    background-color:  white;
+}
+div.main--info{
+    justify-content: center;
+}
+.icons--buttons--container{
+    display: flex;
+}
+.icons--socials--container{
+    display: flex;
+    background-color:rgb(105, 99, 99); 
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+}
+footer{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    /*overflow: auto; */
+}
+.logos {
+    width:40px;
+    margin:0;
+
+}
+#twitter_id{
+    padding: 5px;
+}
